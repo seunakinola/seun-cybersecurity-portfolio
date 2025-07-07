@@ -1,0 +1,11 @@
+Tactic,Technique (ID),Weakness,Impact,Proposed Solution,Recommended Tools
+Initial Access,Phishing (T1566),No MFA for email or VPN accounts,"Credential theft, unauthorized remote access","Enforce MFA, use phishing-resistant authentication","Azure AD MFA, Conditional Access Policies"
+Execution,Malicious Scripts (T1059),"Endpoints lack AV/EDR, users over-permissioned","Malware execution, remote control","Deploy EDR, implement least privilege access","Microsoft Defender for Endpoint, CrowdStrike Falcon"
+Persistence,Valid Accounts (T1078),"Weak admin passwords, reused credentials",Long-term unauthorized access,"Enforce password policy, enable password rotation","Azure AD Password Protection, Specops Password Policy"
+Privilege Escalation,Exploitation for Privilege Escalation (T1068),Unpatched Windows servers and endpoints,Admin rights gained via known exploits,"Regular patch management, vulnerability scanning","WSUS, Qualys, Tenable, Microsoft Intune"
+Defense Evasion,Obfuscated Files/Scripts (T1027),No centralized logging or SIEM,Hard to detect malicious activity,Implement SIEM and centralized logging,"Azure Sentinel, Splunk"
+Credential Access,Brute Force (T1110),No account lockout policy or monitoring,Repeated login attempts to steal credentials,"Account lockout policies, logging failed attempts","Azure AD Smart Lockout, Sentinel"
+Discovery,Network Service Scanning (T1046),Flat network with no segmentation,Lateral movement once inside,"Implement network segmentation (VLANs, DMZ)","Cisco ISE, Palo Alto NGFW"
+Lateral Movement,Remote Services (T1021),"No network segmentation, over-permissioned accounts",Attackers pivot across the network,"Least privilege, isolate critical systems","NGFW, VLANs, NAC"
+Collection,Data from Information Repositories (T1213),Publicly accessible Azure storage buckets,Theft of sensitive business data,Configure proper access controls on storage,"Azure Storage Access Policies, Azure Defender"
+Exfiltration,Exfiltration Over Web Service (T1567),No DLP or traffic monitoring,Loss of confidential data without detection,"Deploy DLP, enable outbound traffic alerts","Microsoft Purview DLP, Azure Firewall"
