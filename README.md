@@ -8,7 +8,7 @@ Welcome! I'm Seun Akinola — a cybersecurity professional with hands-on experie
 Career Focus: Cybersecurity Engineering | Cloud Security | Risk & Compliance  
 Certifications: CompTIA Security+, CySA+, Network+, A+, CAPM  
 Education: M.S. Cybersecurity (In Progress), B.S. Computer Science  
-Location: Based in the U.S. | Open to Remote & Hybrid Roles  
+Location: Based in the U.S. | Onsite, Open to Remote & Hybrid Roles  
 Contact: Oluwaseun.akkinola@gmail.com | [GitHub](https://github.com/seunakniola)
 
 ---
