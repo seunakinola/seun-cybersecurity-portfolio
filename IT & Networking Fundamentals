@@ -1,0 +1,51 @@
+# Module 1: Designing Cybersecurity-Aware IT Infrastructure for a Small Office
+
+## Description
+This project simulates the setup of a secure small-office IT infrastructure using a **Windows 11 host** and an **Ubuntu 22.04 Linux virtual machine**. The goal is to demonstrate secure communication between platforms, cloud file integration, and basic firewall configuration in a home office or small business setting.
+
+---
+
+## Objectives
+- Establish secure bridged network connectivity between host and VM
+- Enable cross-platform file sharing via Google Drive
+- Troubleshoot network restrictions (e.g., Windows firewall ICMP settings)
+- Document a repeatable process for configuring VMs and network settings
+
+---
+
+## Technologies Used
+- Windows 11 Pro
+- Ubuntu 22.04 LTS (VirtualBox VM)
+- Oracle VirtualBox (Bridged Adapter mode)
+- Google Drive (cloud integration)
+- Windows Defender Firewall
+- CLI tools: `ipconfig`, `ping`, `ifconfig`, `ip a`
+
+---
+
+## Implementation Steps
+1. Installed VirtualBox on Windows host
+2. Created and configured Ubuntu VM with:
+   - 2 vCPUs, 2GB RAM, 25GB disk
+   - Bridged networking adapter
+3. Verified IP addresses and connectivity between systems using ping
+4. Uploaded test files to Google Drive from both OSes to verify cloud access
+5. Resolved a ping failure by enabling inbound ICMP Echo Request on Windows Firewall
+
+---
+
+## Results
+- Both systems were reachable within the same subnet (192.168.1.0/24)
+- Google Drive was accessible from both systems for secure file sharing
+- Network security and firewall behavior was verified through practical testing
+
+---
+
+## Files Included
+- `Module 1 Project.docx` – Full documentation of the project steps and configuration
+
+---
+
+## Outcome
+This project serves as a foundational exercise in designing secure, hybrid IT environments using virtualization and basic network security principles. It demonstrates practical troubleshooting, system configuration, and documentation skills needed in real-world cybersecurity roles.
+
