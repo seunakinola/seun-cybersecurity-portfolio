@@ -1,50 +1,114 @@
-# Module 1: Designing Cybersecurity-Aware IT Infrastructure for a Small Office
+# 🛡️ Seun Akinola – Cybersecurity Portfolio
 
-## Description
-This project simulates the setup of a secure small-office IT infrastructure using a **Windows 11 host** and an **Ubuntu 22.04 Linux virtual machine**. The goal is to demonstrate secure communication between platforms, cloud file integration, and basic firewall configuration in a home office or small business setting.
-
----
-
-## Objectives
-- Establish secure bridged network connectivity between host and VM
-- Enable cross-platform file sharing via Google Drive
-- Troubleshoot network restrictions (e.g., Windows firewall ICMP settings)
-- Document a repeatable process for configuring VMs and network settings
+Welcome! I'm Seun Akinola — a cybersecurity professional with hands-on experience designing secure IT infrastructure, performing gap and risk assessments using MITRE ATT&CK and NIST standards, automating security tasks across operating systems, and building cloud-ready secure networks. This portfolio showcases my most impactful projects in Windows/Linux system hardening, threat modeling, encryption, scripting, network security, IAM management, and incident response.
 
 ---
 
-## Technologies Used
-- Windows 11 Pro
-- Ubuntu 22.04 LTS (VirtualBox VM)
-- Oracle VirtualBox (Bridged Adapter mode)
-- Google Drive (cloud integration)
-- Windows Defender Firewall
-- CLI tools: `ipconfig`, `ping`, `ifconfig`, `ip a`
+## 🔍 About Me
+Career Focus: Cybersecurity Engineering | Cloud Security | Risk & Compliance  
+Certifications: CompTIA Security+, CySA+, Network+, A+, CAPM  
+Education: M.S. Cybersecurity (In Progress), B.S. Computer Science  
+Location: Based in the U.S. | Open to Remote & Hybrid Roles  
+Contact: Oluwaseun.akkinola@gmail.com | [GitHub](https://github.com/seunakniola)
 
 ---
 
-## Implementation Steps
-1. Installed VirtualBox on Windows host
-2. Created and configured Ubuntu VM with:
-   - 2 vCPUs, 2GB RAM, 25GB disk
-   - Bridged networking adapter
-3. Verified IP addresses and connectivity between systems using ping
-4. Uploaded test files to Google Drive from both OSes to verify cloud access
-5. Resolved a ping failure by enabling inbound ICMP Echo Request on Windows Firewall
+Project Index
+
+Each module below reflects a real-world cybersecurity scenario or task, complete with documentation, scripts, reports, or simulations.
+
+---
+Module 1: Designing Cybersecurity-Aware IT Infrastructure
+
+Tools & Skills: VirtualBox, Windows 11, Ubuntu 22.04, Google Drive, Bridged Networking  
+Highlights:  
+- Configured bridged networking between host and VM  
+- Enabled secure file sharing via cloud sync  
+- Resolved ping issues with firewall rules  
 
 ---
 
-## Results
-- Both systems were reachable within the same subnet (192.168.1.0/24)
-- Google Drive was accessible from both systems for secure file sharing
-- Network security and firewall behavior was verified through practical testing
+Module 2: Networking with RIPv2, Subnetting, DHCP
+
+Tools & Skills: Cisco Packet Tracer, Subnetting, RIP, DHCP, Static IP Assignment  
+Highlights:  
+- Designed LAN subnetting structure and calculated IP ranges  
+- Implemented dynamic routing using RIPv2  
+- Simulated PC, printer, and server assignments  
 
 ---
 
-## Files Included
-- `Module 1 Project.docx` – Full documentation of the project steps and configuration
+Module 3: Cybersecurity Risk Assessment – TechEase Solutions
+
+Tools & Skills: Microsoft 365, Risk Matrix, Insider Threat Identification, IAM Review  
+Highlights:  
+- Delivered a professional threat analysis and presentation  
+- Created a layered security solution tailored to small business needs  
 
 ---
 
-## Outcome
-This project serves as a foundational exercise in designing secure, hybrid IT environments using virtualization and basic network security principles. It demonstrates practical troubleshooting, system configuration, and documentation skills needed in real-world cybersecurity roles.
+Module 4: System Hardening + VLANs + ACL Security
+
+Tools & Skills: Windows Group Policy, Ubuntu CLI, Cisco ACLs, VLANs  
+Highlights:  
+- Hardened both Windows and Linux endpoints  
+- Implemented VLAN segmentation (Admin, HR, IT, Guest)  
+- Used ACLs to restrict cross-VLAN access  
+
+---
+
+Module 5: MITRE Gap Analysis + Secure Messaging for XYZ Corp
+
+Tools & Skills: MITRE ATT&CK, CyberChef, AES-256, RSA, SHA256, Digital Signatures  
+Highlights:  
+- Mapped organizational weaknesses to MITRE TTPs  
+- Designed a secure network layout with layered security zones  
+- Demonstrated tamper-proof encrypted communication  
+
+---
+
+Module 6: IAM Restructuring + Incident Response Plan (NIST 800-61)
+
+Tools & Skills: Microsoft Entra ID, Defender, Conditional Access, Azure Logs  
+Highlights:  
+- Restructured IAM to reduce over-permissioning  
+- Created an incident response workflow for phishing events  
+- Integrated Conditional Access policies and role-based access  
+
+---
+
+Module 7: Security Automation with CLI, PowerShell, Bash
+
+Tools & Skills: Windows Batch Script, Bash, PowerShell, Automation, File System Scripting  
+Highlights:  
+- Created a batch script to automate user environment setup  
+- Wrote a Bash script for login tracking and sshd monitoring  
+- Simulated daily security maintenance tasks across platforms  
+
+
+---
+
+Skills & Technologies
+
+| Domain               | Tools/Technologies |
+|----------------------|-------------------|
+| Network Security     | Cisco Packet Tracer, RIPv2, VLANs, ACLs, DMZ |
+| Cloud IAM            | Microsoft Entra ID, Conditional Access, Azure Logs |
+| System Hardening     | Windows GPOs, Linux SSH Config, File Permissions |
+| Cryptography         | AES, RSA, SHA256, Digital Signatures, VeraCrypt |
+| Risk Analysis        | MITRE ATT&CK, NIST 800-61, Risk Matrix |
+| Automation & Scripting | PowerShell, Bash, Windows Batch |
+| Platforms            | Windows 11, Ubuntu 22.04, Google Drive, VirtualBox |
+| Documentation        | Word, PowerPoint, Markdown, CSV, Diagrams |
+
+---
+
+Notes
+
+- All files are organized per module, and most include both `.docx` reports and interactive files (`.pkt`, `.sh`, `.bat`)  
+- Feel free to explore, clone, or download individual folders for educational reference  
+- For additional context or walkthroughs, contact me directly
+
+---
+
+> _“Cybersecurity is much more than a matter of IT.” – Stephane Nappo_
