@@ -12,7 +12,18 @@ Location: Based in the U.S. | Open to Remote & Hybrid Roles
 Contact: Oluwaseun.akkinola@gmail.com | [GitHub](https://github.com/seunakniola)
 
 ---
+ Projects by Module
 
+- [Module 1: IT Fundamentals & Networking Basics](./Module-1/)
+- [Module 2: Networking Hands-On](./Module-2/)
+- [Module 3: Introduction to Cybersecurity](./Module-3/)
+- [Module 4: Network Security & Design](./Module-4/)
+- [Module 5: Cyber Tools & Cryptography (AES, RSA, SHA256)](./Module-5/)
+- [Module 6: Incident Response & Cloud IAM](./Module-6/)
+- [Module 7: Scripting Essentials (PowerShell & Bash)](./Module-7/)
+- [Module 8: BYOD Policy & Security Governance](./Module-8/)
+- [Extras: Additional Files & Tools](./Extras/)
+- 
 Project Index
 
 Each module below reflects a real-world cybersecurity scenario or task, complete with documentation, scripts, reports, or simulations.
